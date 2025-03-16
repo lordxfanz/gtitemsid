@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch('items.dat')
+    fetch('items.csv')
         .then(response => {
             if (!response.ok) {
                 throw new Error("Gagal memuat file items.dat");
